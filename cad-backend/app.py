@@ -160,5 +160,14 @@ def convert_file():
         return jsonify({'error': 'Conversion not supported for the provided file and target format'}), 400
 
 
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    if path != "" and os.path.exists(os.path.join('client_build', path)):
+        return send_from_directory('client_build', path)
+    else:
+        return send_from_directory('client_build', 'index.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
