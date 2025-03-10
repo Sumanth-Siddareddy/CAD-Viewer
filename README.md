@@ -44,7 +44,7 @@ Make sure you have installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your_username/your_repo.git
+   git clone https://github.com/Sumanth-Siddareddy/CAD-Viewer
    cd your_repo/cad-backend
    ```
 
@@ -61,32 +61,30 @@ Make sure you have installed:
 3. **Start the React application:** npm start or nodemon start ( Install nodemon if you are using nodemon )
 
 ### Project Structure
-CAD-Viewer/
-├── cad-backend/
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── Procfile
-│   ├── runtime.txt (optional)
-│   └── uploads/
-└── cad-viewer/
-    ├── public/
-    ├── src/
-    │   ├── App.js
-    │   ├── CADViewer.js
-    │   ├── FileUpload.js
-    │   ├── ConvertDownload.js
-    │   └── App.css
-    └── package.json
+    CAD-Viewer/
+    ├── cad-backend/
+    │   ├── app.py
+    │   ├── requirements.txt
+    │   ├── Procfile
+    │   ├── runtime.txt (optional)
+    │   └── uploads/
+    └── cad-viewer/
+        ├── public/
+        ├── src/
+        │   ├── App.js
+        │   ├── CADViewer.js
+        │   ├── FileUpload.js
+        │   ├── ConvertDownload.js
+        │   └── App.css
+        └── package.json
 
 ### Technologies Used
-  **Frontend:** React, Three.js, OrbitControls
-  **Backend:** Flask, Gunicorn, numpy-stl
-  **Conversion Functionality:** Custom endpoints to convert between STL and OBJ formats
+      Frontend: React, Three.js, OrbitControls
+      Backend: Flask, Gunicorn, numpy-stl
+      Conversion Functionality: Custom endpoints to convert between STL and OBJ formats
 
 ### Deployment
 You can deploy the backend and frontend separately (e.g., Flask on Heroku and React on Netlify/Vercel) or serve the React build from the Flask backend. For more details, refer to the deployment instructions in the repository.
 
 ### License
 This project is licensed under the MIT License.
-
-Feel free to adjust the placeholders (like GitHub URLs, video links, and any additional details) to match your project's specifics.
