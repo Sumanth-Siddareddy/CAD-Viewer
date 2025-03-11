@@ -111,6 +111,6 @@ Make sure you have installed:
         └── package.json
 
 ### Technologies Used
-      Frontend: React, Three.js, OrbitControls
-      Backend: Flask, Gunicorn, numpy-stl
+      Frontend: React, Three.js (JavaScript 3D library)
+      Backend: Flask, Gunicorn, numpy-stl, flask_cors, os, numpy, werkzeug
       Conversion Functionality: Custom endpoints to convert between STL and OBJ formats
