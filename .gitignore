@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 3d_printing.STL
 \input_files_zip_folder
+=======
+input_files_zip_folder
+\node_modules
+\robots.txt
+\manifest.json
+>>>>>>> 718dd5d (previously the frontend folder is an another git repo, so I unintialize the repo and agin addding the complete project into GitHub)
