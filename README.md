@@ -1,6 +1,6 @@
 # CAD Viewer Application
 
-A basic web-based CAD viewer that can import, display, and manipulate simple 3D models (e.g., STL or OBJ files). This full-stack project was developed as a technical assignment for a Full-Stack Engineering Intern role at insyde.io.
+A basic web-based CAD viewer that can import, display, and manipulate simple 3D models (e.g., STL or OBJ files).
 
 ## Features
 
