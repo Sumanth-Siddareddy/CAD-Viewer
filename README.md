@@ -22,11 +22,12 @@ A basic web-based CAD viewer that can import, display, and manipulate simple 3D 
 - **Backend API:**  
   - Built with Flask to handle file upload, retrieval, and conversion.
   - Endpoints include `/upload`, `/model/<filename>`, and `/convert`.
+  - Use CAD Viewer.postman_collection.json file to test API using Postman. Import the file and check routes
 
 ## Demo Video
 
 Watch the demo video explaining the approach and key features of this project:  
-[![Demo Video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://drive.google.com/file/d/your_google_drive_video_link/view)
+[![Demo Video](\cad-viewer\public\CAD-Viewer-application-picture.jpg)](https://drive.google.com/file/d/your_google_drive_video_link/view)
 
 *Note: Replace `your_video_id` with your actual YouTube video ID (if applicable) or update the link to your Google Drive video.*
 
@@ -39,54 +40,77 @@ Make sure you have installed:
 - **Node.js and npm**
 - **Git**
 
+### Open command prompt then perform below commands
 ### Backend Setup (Flask API)
 
 1. **Clone the repository:**
 
-   ```bash
+   ```
    git clone https://github.com/Sumanth-Siddareddy/CAD-Viewer
+   ```
+   ```
    cd CAD-Viewer/cad-backend
    ```
 
-2. **Set up a virtual environment:** python -m venv venv
+2. **Set up a virtual environment:** 
+    ```
+      python -m venv venv
+    ```
 3. **Activate the virtual environment:** 
       ```
       Windows : venv\Scripts\activate
+      ```
+      ```
       macOS/Linux : source venv/bin/activate
       ```
-5. **Install required packages:** pip install -r requirements.txt
-6. **Run the Flask server:** python app.py
+5. **Install required packages:** 
+    ```
+      pip install -r requirements.txt
+    ```
+6. **Run the Flask server:** 
+    ```
+      python app.py
+    ```
    
 ### Frontend Setup (React Application)
-1. **Navigate to the React project folder:** cd ../cad-viewer
-2. **Install dependencies:** npm install
-3. **Start the React application:** npm start or nodemon start ( Install nodemon if you are using nodemon )
+1. **Navigate to the React project folder:** 
+    ```
+      cd ../cad-viewer
+    ```
+2. **Install dependencies:** 
+    ```
+      npm install
+    ```
+3. **Start the React application:** ( Install nodemon if you are using nodemon )
+    ```
+      nodemon start
+    ```
+    ```
+      npm start
+    ```
 
 ### Project Structure
-    CAD-Viewer/
+    CAD-Viewer-WebApp/
+    ├── CAD Viewer.postman_collection.json
     ├── cad-backend/
     │   ├── app.py
     │   ├── requirements.txt
-    │   ├── Procfile
-    │   ├── runtime.txt (optional)
     │   └── uploads/
     └── cad-viewer/
         ├── public/
         ├── src/
         │   ├── App.js
+        │   ├── App.test.js
+        │   ├── App.css
+        │   ├── index.js
+        │   ├── index.css
         │   ├── CADViewer.js
         │   ├── FileUpload.js
-        │   ├── ConvertDownload.js
-        │   └── App.css
+        │   └── ConvertDownload.js
+        ├── package-lock.json
         └── package.json
 
 ### Technologies Used
       Frontend: React, Three.js, OrbitControls
       Backend: Flask, Gunicorn, numpy-stl
       Conversion Functionality: Custom endpoints to convert between STL and OBJ formats
-
-### Deployment
-You can deploy the backend and frontend separately (e.g., Flask on Heroku and React on Netlify/Vercel) or serve the React build from the Flask backend. For more details, refer to the deployment instructions in the repository.
-
-### License
-This project is licensed under the MIT License.
