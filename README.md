@@ -52,7 +52,7 @@ Make sure you have installed:
 3. **Activate the virtual environment:**
     Windows : venv\Scripts\activate
     macOS/Linux : source venv/bin/activate
-4. **Install required packages:**pip install -r requirements.txt
+4. **Install required packages:** pip install -r requirements.txt
 5. **Run the Flask server:** python app.py
    
 ### Frontend Setup (React Application)
