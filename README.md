@@ -45,15 +45,17 @@ Make sure you have installed:
 
    ```bash
    git clone https://github.com/Sumanth-Siddareddy/CAD-Viewer
-   cd your_repo/cad-backend
+   cd CAD-Viewer/cad-backend
    ```
 
 2. **Set up a virtual environment:** python -m venv venv
-3. **Activate the virtual environment:**
-    Windows : venv\Scripts\activate
-    macOS/Linux : source venv/bin/activate
-4. **Install required packages:** pip install -r requirements.txt
-5. **Run the Flask server:** python app.py
+3. **Activate the virtual environment:** 
+      ```
+      Windows : venv\Scripts\activate
+      macOS/Linux : source venv/bin/activate
+      ```
+5. **Install required packages:** pip install -r requirements.txt
+6. **Run the Flask server:** python app.py
    
 ### Frontend Setup (React Application)
 1. **Navigate to the React project folder:** cd ../cad-viewer
