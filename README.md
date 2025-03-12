@@ -27,7 +27,7 @@ A basic web-based CAD viewer that can import, display, and manipulate simple 3D 
 ## Demo Video
 
 Watch the demo video explaining the approach and key features of this project:  
-[![Demo Video](/cad-viewer/public/CAD-Viewer-application-picture.jpg)](https://drive.google.com/file/d/your_google_drive_video_link/view)
+[![Demo Video](/cad-viewer/public/CAD-Viewer-application-picture.jpg)](https://drive.google.com/file/d/1FQLi8qeUbxx1kWery1PypYvfWNF-gKto/view?usp=sharing)
 
 *Note: Replace `your_video_id` with your actual YouTube video ID (if applicable) or update the link to your Google Drive video.*
 
