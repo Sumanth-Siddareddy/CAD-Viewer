@@ -49,9 +49,6 @@ def upload_file():
 def get_model(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
-import numpy as np
-from stl import mesh
-
 @app.route('/convert', methods=['GET'])
 def convert_file():
     """
